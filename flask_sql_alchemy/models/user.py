@@ -1,6 +1,6 @@
 import sqlite3
 
-class User:
+class UserModel:
     def __init__(self, _id, username, password):
         self.id = _id
         self.username = username
@@ -31,3 +31,4 @@ class User:
             user = None
         connection.close()
         return user
+        
